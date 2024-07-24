@@ -89,14 +89,7 @@ Objects are automatically assigned to these groups based on their existing tick 
 - TickAggregator uses Stats system for performance tracking. Monitor `STATGROUP_TickAggregator` for detailed performance metrics.
 - The subsystem automatically disables individual tick on registered actors and components to prevent duplicate ticking.
 
-## Contributing
-
-We welcome contributions to TickAggregator! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) file for details on our code of conduct and the process for submitting pull requests.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Support
-
-For support, please open an issue in the GitHub repository or contact our support team at support@example.com.
