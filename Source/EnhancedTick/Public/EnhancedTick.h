@@ -2,10 +2,9 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
-class FTickAggregatorModule : public IModuleInterface
+class FEnhancedTickModule : public IModuleInterface
 {
 public:
 

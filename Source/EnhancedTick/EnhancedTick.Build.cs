@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class TickAggregator : ModuleRules
+public class EnhancedTick : ModuleRules
 {
-	public TickAggregator(ReadOnlyTargetRules Target) : base(Target)
+	public EnhancedTick(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		
@@ -26,6 +26,7 @@ public class TickAggregator : ModuleRules
 			new string[]
 			{
 				"Core",
+				"AIModule",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
