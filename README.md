@@ -21,7 +21,7 @@ This system provides an optimized tick management solution for Unreal Engine, al
 1. Copy the module to your project's "Source" directory
 2. Add the module dependency to your project's `.Build.cs` file:
    ```csharp
-   PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedTickSystem" });
+   PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedTick" });
    ```
 3. Rebuild your project
 4. The `UEnhancedTickSystem` will be available as a WorldSubsystem
@@ -239,7 +239,7 @@ Bu sistem, Unreal Engine için CPU önbellek uyumlu tick gruplandırma yönetimi
 1. Modülü projenizin "Source" dizinine kopyalayın
 2. Projenizin `.Build.cs` dosyasına modül bağımlılığını ekleyin:
    ```csharp
-   PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedTickSystem" });
+   PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedTick" });
    ```
 3. Projenizi yeniden derleyin
 4. `UEnhancedTickSystem` bir WorldSubsystem olarak kullanılabilir olacaktır
